@@ -188,13 +188,6 @@ def player_stats(player_name)
 end
 
 
-
-
-
-
-
-
-
 def get_biggest_shoe()
   hash = game_hash();
   players_shoe_sizes = {}
@@ -224,7 +217,5 @@ end
 
 def big_shoe_rebounds()
   biggest_shoe_player = get_biggest_shoe(); #player_name
-  
   return get_player_stats(biggest_shoe_player)[:rebounds]
-  
 end
